@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/scss/main.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+    <script src="./assets/javaScrips/scroll-to-top.js"></script>
+</head>
+
+<body>
+  <header>
+    <section class="section-1">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid ">
+          <div class="row col-12 col-md-3 ">
+            <ul class="navbar-nav p-2">
+              <li class="nav-item-1">
+                <a class="nav-link active" aria-current="page" href="#">Refund Policy</a>
+              </li>
+              <li class="nav-item-1">
+                <a class="nav-link active" href="#">Privacy Policy</a>
+              </li>
+              <li class="nav-item-1 ">
+                <a class="nav-link  active" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Grooming / Boarding / DNA Services
+                </a>
+              </li>          
+            </ul>
+          </div>
+          <div class="row col-12 col-md-9 ">
+            <div class="collapse navbar-collapse searchs  " id="navbarSupportedContent">
+              <div class=" d-flex  search" role="search">
+                <input class="form-control me-2 search-input " style="border-radius: 20px;" type="search" placeholder="Search"
+                  aria-label="Search">
+                <button class="search__button btn btn-link p-2 btn-item" aria-label="Find the best for your pet...">
+                  <svg class="icon icon-search" width="20" enable-background="new 0 0 512.392 512.392"
+                    viewBox="0 0 512.392 512.392" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                      <path fill="currentColor"
+                        d="m211.196 422c-116.346 0-211-94.654-211-211s94.654-211 211-211 211 94.654 211 211-94.654 211-211 211zm0-382c-94.29 0-171 76.71-171 171s76.71 171 171 171 171-76.71 171-171-76.71-171-171-171zm295.143 466.534c7.81-7.811 7.81-20.475 0-28.285l-89.5-89.5c-7.811-7.811-20.475-7.811-28.285 0s-7.81 20.475 0 28.285l89.5 89.5c3.905 3.905 9.024 5.857 14.143 5.857s10.236-1.952 14.142-5.857z">
+                      </path>
+                    </g>
+                  </svg>
+                </button>
+                <!-- <button class="btn btn-outline-success " type="submit">Search</button> -->
+              </div>
+              <ul class="navbar-nav about-us  mb-2 mb-lg-0">  
+                <li class="nav-item-1 ">
+                  <a class="nav-link active w-100" href="#">About Us</a>
+                </li>
+                <li class="">
+                  <a href="#" title="My cart" class="cart nav-link"><svg viewBox="0 0 512 512" width="35" height="35">
+                      <path
+                        d="M397.78 316H192.65A15 15 0 01178 304.33l-34.54-150.48a15 15 0 0114.62-18.36h274.27A15 15 0 01447 153.85l-34.6 150.48A15 15 0 01397.78 316zm-193.19-30h181.25l27.67-120.48h-236.6zM222 450a57.48 57.48 0 1157.48-57.48A57.54 57.54 0 01222 450zm0-84.95a27.48 27.48 0 1027.48 27.47A27.5 27.5 0 00222 365.05zM368.42 450a57.48 57.48 0 1157.48-57.48A57.54 57.54 0 01368.42 450zm0-84.95a27.48 27.48 0 1027.48 27.47 27.5 27.5 0 00-27.48-27.47z">
+                      </path>
+                      <path
+                        d="M158.08 165.49a15 15 0 01-14.23-10.26L118.14 78H70.7a15 15 0 110-30H129a15 15 0 0114.23 10.26l29.13 87.49a15 15 0 01-14.23 19.74z">
+                      </path>
+                    </svg> <!----></a>
+                </li>
+                <li class="">
+                  <a href="#" title="My account" class="nav-link"><svg viewBox="0 0 26 26" width="35" height="35">
+                      <path
+                        d="M25 13a12.01 12.01 0 00-24 0 11.96 11.96 0 003.86 8.8 11.94 11.94 0 0016.47-.18A11.96 11.96 0 0025 13zM13 2.5a10.51 10.51 0 018.23 17c-.65-2.1-2.5-3.74-5.03-4.5A5.46 5.46 0 0013 5.12a5.48 5.48 0 00-3.2 9.9c-2.52.75-4.38 2.4-5.03 4.5A10.51 10.51 0 0113 2.5zm-3.97 8.08a3.97 3.97 0 117.94.02 3.97 3.97 0 01-7.94-.02zm-3 10.25c.23-2.75 3.14-4.78 6.97-4.78s6.74 2.03 6.97 4.78a10.45 10.45 0 01-13.94 0z">
+                      </path>
+                    </svg></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+
+    <section class="section-2">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid d-flex ">
+          <a class="navbar-brand" href="#"><img class="header__heading-logo img-fluid"
+              srcset="//www.petopets.com/cdn/shop/files/PetOPetsLogo_250x.png?v=1666252948 1x, //www.petopets.com/cdn/shop/files/PetOPetsLogo_250x@2x.png?v=1666252948 2x"
+              src="//www.petopets.com/cdn/shop/files/PetOPetsLogo_250x.png?v=1666252948" loading="lazy"
+              alt="Pet O Pets"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- <div class="me-auto"></div> -->
+            <ul class="navbar-nav2 m-auto mb-2 mb-lg-0">
+
+              <li class="nav-item2 dropdown">
+                <a class="nav-link2 active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Aquatics
+                </a>
+                <ul class="dropdown-menu1">
+                  <li><a class="dropdown-item" href="#">Livestock</a></li>
+                  <li><a class="dropdown-item" href="#">Products</a></li>                 
+                  <li><a class="dropdown-item" href="#">Real Plants</a></li>
+                  <li><a class="dropdown-item" href="#">Nutrition</a></li>
+                </ul>
+              </li>
+              <li class="nav-item2 dropdown">
+                <a class="nav-link2 active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Birds
+                </a>
+                <ul class="dropdown-menu1">
+                  <li><a class="dropdown-item" href="#">Livestock</a></li>
+                  <li><a class="dropdown-item" href="#">Bird Products</a></li>
+                </ul>
+              </li>
+              <li class="nav-item2 dropdown">
+                <a class="nav-link2 active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Cat
+                </a>
+                <ul class="dropdown-menu1">
+                  <li><a class="dropdown-item" href="#">Livestock</a></li>
+                  <li><a class="dropdown-item" href="#">Products</a></li>
+
+                </ul>
+              </li>
+              <li class="nav-item2 dropdown">
+                <a class="nav-link2 active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Dogs
+                </a>
+                <ul class="dropdown-menu1">
+                  <li><a class="dropdown-item" href="#">Livestock</a></li>
+                           
+                  <li><a class="dropdown-item" href="#">Products</a></li>
+                </ul>
+              </li>
+              <li class="nav-item2 dropdown">
+                <a class="nav-link2 active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Feeders
+                </a>
+                <ul class="dropdown-menu1">
+                  <li><a class="dropdown-item" href="#">Livestock</a></li>
+                  <li><a class="dropdown-item" href="#">Frozen</a></li>
+                  <li><a class="dropdown-item" href="#">Canned Food</a></li>
+                  <li><a class="dropdown-item" href="#">Products</a></li>
+                </ul>
+              </li>
+              <li class="nav-item2 dropdown">
+                <a class="nav-link2 active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Ponds
+                </a>
+                <ul class="dropdown-menu1">
+                  <li><a class="dropdown-item" href="#">Livestock</a></li>
+                  <li><a class="dropdown-item" href="#">Products</a></li>                 
+                </ul>
+              </li>
+              <li class="nav-item2 dropdown">
+                <a class="nav-link2 active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Reptiles
+                </a>
+                <ul class="dropdown-menu1">
+                  <li><a class="dropdown-item" href="#">Livestock</a></li>
+                  <li><a class="dropdown-item" href="#">Products</a></li>
+                </ul>
+              </li>
+              <li class="nav-item2 dropdown">
+                <a class="nav-link2 active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Small Animals
+                </a>
+                <ul class="dropdown-menu1">
+                  <li><a class="dropdown-item" href="#">Livestock</a></li>
+                  <li><a class="dropdown-item" href="#">Products</a></li>
+                </ul>
+              </li>
+
+            </ul>
+            <div class="nav-item3 ">
+              <a class="nav-link3 " href="#"> Contact Us
+              </a>
+              <span>
+                <img class="img-fluid" style="height: 50px ;"
+                  src="//www.petopets.com/cdn/shop/t/2/assets/contact-sign2.png?v=33655293313860024421668424336">
+              </span>
+            </div>
+
+          </div>
+        </div>
+      </nav>
+    </section>
+  </header>
+
+  <main>
+    <section class="">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-panel">
+              <div class="carousel-text">
+                <h2 class="h22">Looking for Ornamental Fish, Plants or products</h2>
+                <h3>We have a stunning Livestock and Product range at our stores.</h3>
+                <p>We’ve got some awesome deals going on for Aquariums, Accessories and Supplies, which we know you will
+                  love.</p>
+                <div class="button-text">
+                  <a href="" class=" btn-items-1">Fish</a>
+                  <a href="" class=" btn-items-1" style="background-color: white; color: #000000;">Fish Products</a>
+                  <a href="" class=" btn-items-1">Real Plants</a>
+                </div>
+              </div>
+              <img src="./assets/images/fish-hero.webp" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-panel">
+              <div class="carousel-text">
+                <h2 class="h22">Looking for PET birdS, ACCESSORIES AND SUPPLIES?</h2>
+                <h3>Singing, Talking Interactive Small Dinosaurs</h3>
+                <p>A great collection of birds from small Finches to Hand Tamed Talking Parrots. VIsit us at any of the locations or order online to be shipped to your doorstep.</p>
+                <div class="button-text">
+                  <a href="" class=" btn-items-1">Birds</a>
+                  <a href="" class=" btn-items-1" style="background-color: white; color: #000000;">Birds Products</a>
+                </div>
+              </div>
+              <img src="./assets/images/birds-hero.webp" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-panel">
+              <div class="carousel-text">
+                <h2 class="h22">We have exotic cats</h2>
+                <p>A wide range of Nutrition, Accessories and Supplies. VIsit us at any of the locations or order online to be shipped to your doorstep.</p>
+                <div class="button-text">
+                  <a href="" class=" btn-items-1">Cats</a>
+                  <a href="" class=" btn-items-1" style="background-color: white; color: #000000;">
+                    Cats Products</a>
+                </div>
+              </div>
+              <img src="./assets/images/hero-cat.webp" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-panel">
+              <div class="carousel-text">
+                <h2 class="h22">Feeders</h2>
+                <p>You can also find extraordinary feeders at our stores ranging from tiny bugs to large rodents, live and frozen. Check the competitive quality and and price. Your exotic pets deserve the best, which you can also find at our stores.</p>
+                <div class="button-text">
+                  <a href="" class=" btn-items-1">Live Stock</a>
+                  <a href="" class=" btn-items-1" style="background-color: white; color: #000000;">
+                    Pond Products</a>
+                  <a href="" class=" btn-items-1" style="background-color: white; color: #000000;">
+                    Pond Products</a>
+                </div>
+              </div>
+              <img src="./assets/images/hero-feeders.webp" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-panel">
+              <div class="carousel-text">
+                <h2 class="h22">Checkout Our Dog Section</h2>
+                <p>For a wide range of Nutrition, Accessories and supplies. VIsit us at any of the locations or order online to be shipped to your doorstep.
+                </p>
+                <div class="button-text">
+                  <a href="" class=" btn-items-1">Dogs</a>
+                  <a href="" class=" btn-items-1" style="background-color: white; color: #000000;">
+                    Dogs Products</a>
+                </div>
+              </div>
+              <img src="./assets/images/hero-dog.webp" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-panel">
+              <div class="carousel-text">
+                <h2 class="h22">Ponds</h2>
+                <p>
+                  Get advantage of our proficiency and knowledge, when it comes to giving life to your backyard. From designing to building and maintenance. We have an awesome selection of pond equipments, accessories and supplies.</p>
+                <div class="button-text">
+                  <a href="" class=" btn-items-1">Live Stock</a>
+                  <a href="" class=" btn-items-1" style="background-color: white; color: #000000;">
+                    Ponds Products</a>
+                </div>
+              </div>
+              <img src="./assets/images/hero-ponds.webp" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-panel">
+              <div class="carousel-text">
+                <h2 class="h22">GREAT SELECTION OF exotic reptiles, ACCESSORIES AND SUPPLIES</h2>
+                <p>
+                  Visit Pet Village inside Pet O Pets to check a great reptile selection or order online to be shipped to your doorstep.
+              </p>
+                <div class="button-text">
+                  <a href="" class=" btn-items-1">Reptiles</a>
+                  <a href="" class=" btn-items-1" style="background-color: white; color: #000000;">
+                    Reptile Products</a>
+                </div>
+              </div>
+              <img src="./assets/images/hero-repltiles.webp" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>       
+      </div>
+    </section>
+
+    <section class="section-main-2">
+      <div class="container">
+        <div class=" row">
+          <div class="col-12 col-md-12 text-center">
+            <h2 class="text-center pb-5">Collections</h2>
+          </div>
+        </div>
+
+        <div class=" row container p-0  products">
+          <div class=" col-12 col-md-4 col-sm-6 col-xl-3  p-0  ">
+            <div class="product">
+              <div class="images">
+                <img class="" src="./assets/images/cat-aquatics.webp" alt="">
+                <ul class="images-hover">
+                  <li class="li-hover"><a class="abc" href="">Fish</a></li>
+                  <li class="li-hover"><a class="abc" href="">Fish Product</a></li>
+                  <li class="li-hover"><a class="abc" href="">Real Plants</a></li>
+                </ul>
+              </div>
+              <div class="fw-bolds">
+                <p>Aquatics</p>
+              </div>
+            </div>
+
+          </div>
+          <div class=" col-12 col-md-4 col-sm-6 col-xl-3 p-0  ">
+            <div class="product">
+              <div class="images">
+                <img class="" src="./assets/images/11.webp" alt="">
+                <ul class="images-hover">
+                  <li class="li-hover"><a class="abc" href="">Birds</a></li>
+                  <li class="li-hover"><a class="abc" href="">Bird Product</a></li>
+                </ul>
+              </div>
+              <div class="fw-bolds">
+                <p>Birds</p>
+              </div>
+            </div>
+
+          </div>
+          <div class=" col-12 col-md-4 col-sm-6 col-xl-3 p-0  ">
+            <div class="product">
+              <div class="images">
+                <img class="" src="./assets/images/22.webp" alt="">
+                <ul class="images-hover">
+                  <li class="li-hover"><a class="abc" href="">Cats</a></li>
+                  <li class="li-hover"><a class="abc" href="">Cat Product</a></li>
+                </ul>
+              </div>
+              <div class="fw-bolds">
+                <p>Cats</p>
+              </div>
+            </div>
+
+          </div>
+          <div class=" col-12 col-md-4 col-sm-6 col-xl-3  p-0  ">
+            <div class="product">
+              <div class="images">
+                <img class="" src="./assets/images/33.webp" alt="">
+                <ul class="images-hover">
+                  <li class="li-hover"><a class="abc" href="">Dogs</a></li>
+                  <li class="li-hover"><a class="abc" href="">Dog Products</a></li>
+                </ul>
+              </div>
+              <div class="fw-bolds">
+                <p>Dogs</p>
+              </div>
+            </div>
+
+          </div>
+          <div class=" col-12 col-md-4 col-sm-6 col-xl-3  p-0  ">
+            <div class="product">
+              <div class="images">
+                <img class="" src="./assets/images/44.webp" alt="">
+                <ul class="images-hover">
+                  <li class="li-hover"><a class="abc" href="">Feeders</a></li>
+                  <li class="li-hover"><a class="abc" href="">Frozen</a></li>
+                  <li class="li-hover"><a class="abc" href="">Feeder Products</a></li>
+                </ul>
+              </div>
+              <div class="fw-bolds">
+                <p>Feeders</p>
+              </div>
+            </div>
+
+          </div>
+          <div class=" col-12 col-md-4 col-sm-6 col-xl-3  p-0  ">
+            <div class="product">
+              <div class="images">
+                <img class="" src="./assets/images/55.webp" alt="">
+                <ul class="images-hover">
+                  <li class="li-hover"><a class="abc" href="">Ponds</a></li>
+                  <li class="li-hover"><a class="abc" href="">Pond Product</a></li>
+                </ul>
+              </div>
+              <div class="fw-bolds">
+                <p>Ponds</p>
+              </div>
+            </div>
+
+          </div>
+          <div class=" col-12 col-md-4 col-sm-6 col-xl-3  p-0  ">
+            <div class="product">
+              <div class="images">
+                <img class="" src="./assets/images/66.webp" alt="">
+                <ul class="images-hover">
+                  <li class="li-hover"><a class="abc" href="">Reptiles</a></li>
+                  <li class="li-hover"><a class="abc" href="">Reptile Products</a></li>
+                </ul>
+              </div>
+              <div class="fw-bolds">
+                <p>Reptiles</p>
+              </div>
+            </div>
+
+          </div>
+          <div class=" col-12 col-md-4 col-sm-6 col-xl-3  p-0  ">
+            <div class="product">
+              <div class="images">
+                <img class="" src="./assets/images/77.webp" alt="">
+                <ul class="images-hover">
+                  <li class="li-hover"><a class="abc" href="">Small Pets</a></li>
+                  <li class="li-hover"><a class="abc" href="">Small Pet Products</a></li>
+                </ul>
+              </div>
+              <div class="fw-bolds">
+                <p>Small Animals</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container p-0">
+      <div class="row cards">
+        <div class="col-12 col-md-4 p-3 ">
+          <div class="card-item ">
+            <div class="img-item">
+              <img class="images-item" width="100%" height="100%"
+                src="./assets/images/1-2.webp" alt="">
+            </div>
+            <h2>TAKE A VIRTUAL TOUR OF OUR BURLINGTON BRANCH</h2>
+            <a href="" class=" btn-items">VIEW HERE</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 p-3 ">
+          <div class="card-item">
+            <div class="img-item">
+              <img class="images-item" width="100%" height="100%"
+                src="./assets/images/virtual-tour-img_490x277_1f2193a1-fd42-4f35-848e-6365a1bfc892_497x289.webp" alt="">
+            </div>
+            <h2>TAKE A VIRTUAL TOUR OF OUR BURLINGTON BRANCH</h2>
+            <a href="" class=" btn-items">VIEW HERE</a>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 p-3">
+          <div class="card-item">
+            <div class="img-item">
+              <img class="images-item"
+                src="./assets/images/1-3.jpg" width="100%" height="100%" alt="">
+            </div>
+            <h2 class="balance">REVIEW US</h2>
+            <a href="" class=" btn-items">VIEW HERE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section-4">
+      <div class="container">
+        <div class="row">
+          <div class=" col-xl-7 img-cats">
+            <div class="img-4">
+              <img class=" img-cat"
+                src="./assets/images/cat-1_900x660_820d055c-0e1a-469b-a623-5b49a6e06884_900x660.webp" width="100%"
+                height="100%" alt="">
+            </div>
+          </div>
+
+          <div class="col-12 col-xl-5 comments">
+            <div>
+              <span class="d-inline-block" style="max-width: 50%;"><img
+                  class="img-fluid lazyautosizes ls-is-cached lazyloaded" data-sizes="auto" data-aspectratio=""
+                  data-src="//cdn.shopify.com/s/files/1/0625/0129/0222/files/quote-img.png?v=1643973097" sizes="70px"
+                  src="//cdn.shopify.com/s/files/1/0625/0129/0222/files/quote-img.png?v=1643973097"></span>
+            </div>
+
+            <div class="carousel-main">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="comment-item">
+                      <h2>Outstanding!</h2>
+                      <p>Both the store and the service was impeccable.The store was so clean and all of the pets were very healthy. They were so healthy that we bought a beautiful and cuddly little parrot that we adore. What a great job giving so much care to all their pets.
+                      </p>
+                      <span class="d-inline-block"><img class="img-fluid lazyautosizes ls-is-cached lazyloaded"
+                          data-sizes="auto" data-aspectratio=""
+                          data-src="//cdn.shopify.com/s/files/1/0625/0129/0222/files/star-rating-5.png?v=1643973406"
+                          sizes="142px"
+                          src="//cdn.shopify.com/s/files/1/0625/0129/0222/files/star-rating-5.png?v=1643973406"></span>
+                      <h3>Coleen Gallant</h3>
+                      <p>Google Review</p>
+                      <br><br>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="comment-item">
+                      <h2>Awesome!</h2>
+                      <p>One of the best pet owners I’ve ever met. I have about 5 birds and he really comes through in terms of giving us the right advice on what they need and require. Information that even vets around the area wouldn’t tell you properly. Great prices and service!
+                      </p>
+                      <span class="d-inline-block" style="max-width: 50%;"><img
+                          class="img-fluid lazyautosizes ls-is-cached lazyloaded" data-sizes="auto" data-aspectratio=""
+                          data-src="//cdn.shopify.com/s/files/1/0625/0129/0222/files/star-rating-5.png?v=1643973406"
+                          sizes="142px"
+                          src="//cdn.shopify.com/s/files/1/0625/0129/0222/files/star-rating-5.png?v=1643973406"></span>
+                      <h3>Arslana J</h3>
+                      <p>Google Review</p>
+                      <br><br>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="comment-item">
+                      <h2>Great Service!</h2>
+                      <p>Pet O Pets is a very good pet store! They have a clean and friendly environment with a large
+                        selection of pets! They treat their pets very nicely and offer them the care that they need.
+                        Unlike any other mass producing pet store they keep their animals in an area that suits the
+                        animals needs (unlike pet smart where they confine medium birds in very small cages). Overall
+                        this pet store is very well put together and I recommend going here if you are looking for a pet
+                        (or supplies as well)</p>
+                      <span class="d-inline-block" style="max-width: 50%;"><img
+                          class="img-fluid lazyautosizes ls-is-cached lazyloaded" data-sizes="auto" data-aspectratio=""
+                          data-src="//cdn.shopify.com/s/files/1/0625/0129/0222/files/star-rating-5.png?v=1643973406"
+                          sizes="142px"
+                          src="//cdn.shopify.com/s/files/1/0625/0129/0222/files/star-rating-5.png?v=1643973406"></span>
+                      <h3>Alisha Draws</h3>
+                      <p>Google Review</p>
+                      <br><br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="text-center">
+        <h3 class="heading">
+          <span>Follow <span style="color: #1972c4">@Pet O Pets</span></span>
+        </h3>
+      </div>
+    </section>
+    <section class="container-fluid">
+      <div class="row  card-section-5">
+        <div class="col-12 col-xl-2 col-md-4 p-0">
+          <div class="card-img">
+            <div class="img-5">
+              <img src="./assets/images/1.jpg" width="100%" height="100%" alt="">
+              <ul class="ul-cards">
+                <li class="list-unstyled li-cards">
+                  <i class="fa-brands fa-instagram"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-2 col-md-4 p-0">
+          <div class="card-img">
+            <div class="img-5">
+              <img src="./assets/images/2.jpg" width="100%" height="100%" alt="">
+              <ul class="ul-cards">
+                <li class="list-unstyled li-cards">
+                  <i class="fa-brands fa-instagram"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-2 col-md-4 p-0">
+          <div class="card-img">
+            <div class="img-5">
+              <img src="./assets/images/3.jpg" width="100%" height="100%" alt="">
+              <ul class="ul-cards">
+                <li class="list-unstyled li-cards">
+                  <i class="fa-brands fa-instagram"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-2 col-md-4 p-0">
+          <div class="card-img">
+            <div class="img-5">
+              <img src="./assets/images/4.jpg" width="100%" height="100%" alt="">
+              <ul class="ul-cards">
+                <li class="list-unstyled li-cards">
+                  <i class="fa-brands fa-instagram"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-2 col-md-4 p-0">
+          <div class="card-img">
+            <div class="img-5">
+              <img src="./assets/images/5.jpg" width="100%" height="100%" alt="">
+              <ul class="ul-cards">
+                <li class="list-unstyled li-cards">
+                  <i class="fa-brands fa-instagram"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-xl-2 col-md-4 p-0">
+          <div class="card-img">
+            <div class="img-5">
+              <img src="./assets/images/7.jpg" width="100%" height="100%" alt="">
+              <ul class="ul-cards">
+                <li class="list-unstyled li-cards">
+                  <i class="fa-brands fa-instagram"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__center">
+      <div class="container">
+        
+          <div class=" row g-3 g-lg-4 row-cols-1 row-cols-md-2 row-cols-lg-2">
+            <div class="footer-center-text">
+              <div class="footer-img">
+                <img src="./assets/images/petopet-logo_250x (1).png" width="100%" height="100%" alt="">
+              </div>
+              <h2>PET O PETS MISSISSAUGA</h2>
+              <div class="">3092 Mavis Rd, Mississauga, ON L 5C 1T8, Canada</div>
+              <a href="">view map</a>
+              <span>1-844-PET-O-PET <br>
+                1-844-738-6-738</span>
+              <p>Email: hello@petopets.com</p>
+              <p>Saturday to Thursday 10:00 am -6:00 pm <br>
+                Animal section (Pet Village) 11:00am - 5:00 pm <br>
+                Friday 10:00 am to 4:00 pm <br>
+                Animal section (Pet Village) 11:00 am - 4:00 pm</p>
+            </div>
+            <div class="footer-center-text">
+              <div class="footer-img">
+                <img src="./assets/images/petopet-logo_250x (1).png" width="100%" height="100%" alt="">
+              </div>
+              <h2>PET O PETS BURLINGTON</h2>
+              <div>Millcroft Shopping Centre, 2020 Appleby Line, Burlington, ON L7L 6M6, Canada</div>
+              <a href="">view map</a>
+              <span>1-844-PET-O-PET <br>
+                1-844-738-6-738</span>
+              <p>Email: hello@petopets.com</p>
+              <p>Saturday to Thursday 10:00 am -6:00 pm <br>
+                Animal section (Pet Village) 11:00am - 5:00 pm <br>
+                Friday 10:00 am to 4:00 pm <br>
+                Animal section (Pet Village) 11:00 am - 4:00 pm</p>
+            </div>
+          </div>      
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 justify-content-between align-items-center">
+          <div class="text-bottom">
+            <p>© 2022 Petopets Pets Store by FullStop <br>
+              Refund Policy | Privacy Policy</p>
+          </div>
+          <div class="icon-bottom ">
+            <ul class="list list-payment list-unstyled m-0 d-flex flex-wrap justify-content-end" role="list"><li class="list-payment__item p-1">
+              <svg class="icon icon--full-color" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-american_express"><title id="pi-american_express">American Express</title><g fill="none"><path fill="#000" d="M35,0 L3,0 C1.3,0 0,1.3 0,3 L0,21 C0,22.7 1.4,24 3,24 L35,24 C36.7,24 38,22.7 38,21 L38,3 C38,1.3 36.6,0 35,0 Z" opacity=".07"></path><path fill="#006FCF" d="M35,1 C36.1,1 37,1.9 37,3 L37,21 C37,22.1 36.1,23 35,23 L3,23 C1.9,23 1,22.1 1,21 L1,3 C1,1.9 1.9,1 3,1 L35,1"></path><path fill="#FFF" d="M8.971,10.268 L9.745,12.144 L8.203,12.144 L8.971,10.268 Z M25.046,10.346 L22.069,10.346 L22.069,11.173 L24.998,11.173 L24.998,12.412 L22.075,12.412 L22.075,13.334 L25.052,13.334 L25.052,14.073 L27.129,11.828 L25.052,9.488 L25.046,10.346 L25.046,10.346 Z M10.983,8.006 L14.978,8.006 L15.865,9.941 L16.687,8 L27.057,8 L28.135,9.19 L29.25,8 L34.013,8 L30.494,11.852 L33.977,15.68 L29.143,15.68 L28.065,14.49 L26.94,15.68 L10.03,15.68 L9.536,14.49 L8.406,14.49 L7.911,15.68 L4,15.68 L7.286,8 L10.716,8 L10.983,8.006 Z M19.646,9.084 L17.407,9.084 L15.907,12.62 L14.282,9.084 L12.06,9.084 L12.06,13.894 L10,9.084 L8.007,9.084 L5.625,14.596 L7.18,14.596 L7.674,13.406 L10.27,13.406 L10.764,14.596 L13.484,14.596 L13.484,10.661 L15.235,14.602 L16.425,14.602 L18.165,10.673 L18.165,14.603 L19.623,14.603 L19.647,9.083 L19.646,9.084 Z M28.986,11.852 L31.517,9.084 L29.695,9.084 L28.094,10.81 L26.546,9.084 L20.652,9.084 L20.652,14.602 L26.462,14.602 L28.076,12.864 L29.624,14.602 L31.499,14.602 L28.987,11.852 L28.986,11.852 Z"></path></g></svg>
+
+              </li><li class="list-payment__item p-1">
+              <svg class="icon icon--full-color" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-diners_club"><title id="pi-diners_club">Diners Club</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path d="M12 12v3.7c0 .3-.2.3-.5.2-1.9-.8-3-3.3-2.3-5.4.4-1.1 1.2-2 2.3-2.4.4-.2.5-.1.5.2V12zm2 0V8.3c0-.3 0-.3.3-.2 2.1.8 3.2 3.3 2.4 5.4-.4 1.1-1.2 2-2.3 2.4-.4.2-.4.1-.4-.2V12zm7.2-7H13c3.8 0 6.8 3.1 6.8 7s-3 7-6.8 7h8.2c3.8 0 6.8-3.1 6.8-7s-3-7-6.8-7z" fill="#3086C8"></path></svg>
+              </li><li class="list-payment__item p-1">
+              <svg class="icon icon--full-color" viewBox="0 0 38 24" width="38" height="24" role="img" aria-labelledby="pi-discover" fill="none" xmlns="http://www.w3.org/2000/svg"><title id="pi-discover">Discover</title><path fill="#000" opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32z" fill="#fff"></path><path d="M3.57 7.16H2v5.5h1.57c.83 0 1.43-.2 1.96-.63.63-.52 1-1.3 1-2.11-.01-1.63-1.22-2.76-2.96-2.76zm1.26 4.14c-.34.3-.77.44-1.47.44h-.29V8.1h.29c.69 0 1.11.12 1.47.44.37.33.59.84.59 1.37 0 .53-.22 1.06-.59 1.39zm2.19-4.14h1.07v5.5H7.02v-5.5zm3.69 2.11c-.64-.24-.83-.4-.83-.69 0-.35.34-.61.8-.61.32 0 .59.13.86.45l.56-.73c-.46-.4-1.01-.61-1.62-.61-.97 0-1.72.68-1.72 1.58 0 .76.35 1.15 1.35 1.51.42.15.63.25.74.31.21.14.32.34.32.57 0 .45-.35.78-.83.78-.51 0-.92-.26-1.17-.73l-.69.67c.49.73 1.09 1.05 1.9 1.05 1.11 0 1.9-.74 1.9-1.81.02-.89-.35-1.29-1.57-1.74zm1.92.65c0 1.62 1.27 2.87 2.9 2.87.46 0 .86-.09 1.34-.32v-1.26c-.43.43-.81.6-1.29.6-1.08 0-1.85-.78-1.85-1.9 0-1.06.79-1.89 1.8-1.89.51 0 .9.18 1.34.62V7.38c-.47-.24-.86-.34-1.32-.34-1.61 0-2.92 1.28-2.92 2.88zm12.76.94l-1.47-3.7h-1.17l2.33 5.64h.58l2.37-5.64h-1.16l-1.48 3.7zm3.13 1.8h3.04v-.93h-1.97v-1.48h1.9v-.93h-1.9V8.1h1.97v-.94h-3.04v5.5zm7.29-3.87c0-1.03-.71-1.62-1.95-1.62h-1.59v5.5h1.07v-2.21h.14l1.48 2.21h1.32l-1.73-2.32c.81-.17 1.26-.72 1.26-1.56zm-2.16.91h-.31V8.03h.33c.67 0 1.03.28 1.03.82 0 .55-.36.85-1.05.85z" fill="#231F20"></path><path d="M20.16 12.86a2.931 2.931 0 100-5.862 2.931 2.931 0 000 5.862z" fill="url(#pi-paint0_linear)"></path><path opacity=".65" d="M20.16 12.86a2.931 2.931 0 100-5.862 2.931 2.931 0 000 5.862z" fill="url(#pi-paint1_linear)"></path><path d="M36.57 7.506c0-.1-.07-.15-.18-.15h-.16v.48h.12v-.19l.14.19h.14l-.16-.2c.06-.01.1-.06.1-.13zm-.2.07h-.02v-.13h.02c.06 0 .09.02.09.06 0 .05-.03.07-.09.07z" fill="#231F20"></path><path d="M36.41 7.176c-.23 0-.42.19-.42.42 0 .23.19.42.42.42.23 0 .42-.19.42-.42 0-.23-.19-.42-.42-.42zm0 .77c-.18 0-.34-.15-.34-.35 0-.19.15-.35.34-.35.18 0 .33.16.33.35 0 .19-.15.35-.33.35z" fill="#231F20"></path><path d="M37 12.984S27.09 19.873 8.976 23h26.023a2 2 0 002-1.984l.024-3.02L37 12.985z" fill="#F48120"></path><defs><linearGradient id="pi-paint0_linear" x1="21.657" y1="12.275" x2="19.632" y2="9.104" gradientUnits="userSpaceOnUse"><stop stop-color="#F89F20"></stop><stop offset=".25" stop-color="#F79A20"></stop><stop offset=".533" stop-color="#F68D20"></stop><stop offset=".62" stop-color="#F58720"></stop><stop offset=".723" stop-color="#F48120"></stop><stop offset="1" stop-color="#F37521"></stop></linearGradient><linearGradient id="pi-paint1_linear" x1="21.338" y1="12.232" x2="18.378" y2="6.446" gradientUnits="userSpaceOnUse"><stop stop-color="#F58720"></stop><stop offset=".359" stop-color="#E16F27"></stop><stop offset=".703" stop-color="#D4602C"></stop><stop offset=".982" stop-color="#D05B2E"></stop></linearGradient></defs></svg>
+              </li><li class="list-payment__item p-1">
+              <svg class="icon icon--full-color" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-master"><title id="pi-master">Mastercard</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><circle fill="#EB001B" cx="15" cy="12" r="7"></circle><circle fill="#F79E1B" cx="23" cy="12" r="7"></circle><path fill="#FF5F00" d="M22 12c0-2.4-1.2-4.5-3-5.7-1.8 1.3-3 3.4-3 5.7s1.2 4.5 3 5.7c1.8-1.2 3-3.3 3-5.7z"></path></svg>
+              </li><li class="list-payment__item p-1">
+              <svg class="icon icon--full-color" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 38 24" width="38" height="24" aria-labelledby="pi-shopify_pay"><title id="pi-shopify_pay">Shop Pay</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z" fill="#000"></path><path d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32z" fill="#5A31F4"></path><path d="M21.382 9.713c0 1.668-1.177 2.858-2.821 2.858h-1.549a.133.133 0 00-.12.08.127.127 0 00-.01.049v2.192a.129.129 0 01-.13.129h-1.084a.13.13 0 01-.13-.13V6.986a.127.127 0 01.08-.12.129.129 0 01.05-.01h2.9c1.637 0 2.814 1.19 2.814 2.858v-.001zm-1.352 0c0-.958-.658-1.658-1.55-1.658h-1.468a.13.13 0 00-.13.13v3.05a.127.127 0 00.038.092.129.129 0 00.092.038h1.468c.892.005 1.55-.695 1.55-1.652zm1.674 3.791a1.527 1.527 0 01.647-1.317c.423-.316 1.084-.48 2.055-.514l1.033-.036v-.303c0-.607-.41-.863-1.068-.863-.658 0-1.075.231-1.17.61a.127.127 0 01-.125.09h-1.022a.13.13 0 01-.126-.092.125.125 0 01-.004-.055c.152-.898.904-1.58 2.494-1.58 1.692 0 2.303.783 2.303 2.276v3.172a.13.13 0 01-.132.129h-1.03a.13.13 0 01-.13-.13v-.236a.096.096 0 00-.061-.091.1.1 0 00-.107.022c-.31.334-.808.575-1.607.575-1.175 0-1.95-.607-1.95-1.657zm3.735-.687v-.246l-1.339.07c-.705.036-1.115.326-1.115.816 0 .444.376.69 1.034.69.893 0 1.42-.48 1.42-1.33zm2.316 4.6v-.919a.13.13 0 01.049-.1.132.132 0 01.108-.027c.158.029.318.044.479.044a1.229 1.229 0 001.245-.876l.067-.211a.133.133 0 000-.088l-2.145-5.471a.13.13 0 01.06-.165.13.13 0 01.062-.015h1.04a.132.132 0 01.123.085l1.456 3.859a.131.131 0 00.125.088.133.133 0 00.125-.088l1.265-3.848a.13.13 0 01.126-.09h1.076a.134.134 0 01.132.116.134.134 0 01-.008.063l-2.295 6.076c-.528 1.413-1.433 1.773-2.43 1.773a1.959 1.959 0 01-.561-.066.132.132 0 01-.1-.14h.001zM8.57 6.4a5.363 5.363 0 00-3.683 1.427.231.231 0 00-.029.31l.618.839a.236.236 0 00.362.028 3.823 3.823 0 012.738-1.11c2.12 0 3.227 1.584 3.227 3.15 0 1.7-1.163 2.898-2.835 2.921-1.292 0-2.266-.85-2.266-1.974a1.908 1.908 0 01.713-1.48.231.231 0 00.033-.324l-.65-.815a.236.236 0 00-.339-.034 3.43 3.43 0 00-.942 1.183 3.39 3.39 0 00-.337 1.47c0 1.935 1.655 3.452 3.775 3.464h.03c2.517-.032 4.337-1.884 4.337-4.415 0-2.247-1.667-4.64-4.752-4.64z" fill="#fff"></path></svg>
+              </li><li class="list-payment__item p-1">
+              <svg class="icon icon--full-color" viewBox="0 0 38 24" xmlns="http://www.w3.org/2000/svg" role="img" width="38" height="24" aria-labelledby="pi-visa"><title id="pi-visa">Visa</title><path opacity=".07" d="M35 0H3C1.3 0 0 1.3 0 3v18c0 1.7 1.4 3 3 3h32c1.7 0 3-1.3 3-3V3c0-1.7-1.4-3-3-3z"></path><path fill="#fff" d="M35 1c1.1 0 2 .9 2 2v18c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2V3c0-1.1.9-2 2-2h32"></path><path d="M28.3 10.1H28c-.4 1-.7 1.5-1 3h1.9c-.3-1.5-.3-2.2-.6-3zm2.9 5.9h-1.7c-.1 0-.1 0-.2-.1l-.2-.9-.1-.2h-2.4c-.1 0-.2 0-.2.2l-.3.9c0 .1-.1.1-.1.1h-2.1l.2-.5L27 8.7c0-.5.3-.7.8-.7h1.5c.1 0 .2 0 .2.2l1.4 6.5c.1.4.2.7.2 1.1.1.1.1.1.1.2zm-13.4-.3l.4-1.8c.1 0 .2.1.2.1.7.3 1.4.5 2.1.4.2 0 .5-.1.7-.2.5-.2.5-.7.1-1.1-.2-.2-.5-.3-.8-.5-.4-.2-.8-.4-1.1-.7-1.2-1-.8-2.4-.1-3.1.6-.4.9-.8 1.7-.8 1.2 0 2.5 0 3.1.2h.1c-.1.6-.2 1.1-.4 1.7-.5-.2-1-.4-1.5-.4-.3 0-.6 0-.9.1-.2 0-.3.1-.4.2-.2.2-.2.5 0 .7l.5.4c.4.2.8.4 1.1.6.5.3 1 .8 1.1 1.4.2.9-.1 1.7-.9 2.3-.5.4-.7.6-1.4.6-1.4 0-2.5.1-3.4-.2-.1.2-.1.2-.2.1zm-3.5.3c.1-.7.1-.7.2-1 .5-2.2 1-4.5 1.4-6.7.1-.2.1-.3.3-.3H18c-.2 1.2-.4 2.1-.7 3.2-.3 1.5-.6 3-1 4.5 0 .2-.1.2-.3.2M5 8.2c0-.1.2-.2.3-.2h3.4c.5 0 .9.3 1 .8l.9 4.4c0 .1 0 .1.1.2 0-.1.1-.1.1-.1l2.1-5.1c-.1-.1 0-.2.1-.2h2.1c0 .1 0 .1-.1.2l-3.1 7.3c-.1.2-.1.3-.2.4-.1.1-.3 0-.5 0H9.7c-.1 0-.2 0-.2-.2L7.9 9.5c-.2-.2-.5-.5-.9-.6-.6-.3-1.7-.5-1.9-.5L5 8.2z" fill="#142688"></path></svg>
+              </li></ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="d-flex justify-content-end p-0">
+    <a onclick="topFunction()" id="myBtn" title="Go to top">
+      <!-- <i class="fa-solid fa-arrow-up"></i> -->
+      <img src="./assets/images/scrool.png" width="40px" height="40px" alt="">
+    </a>
+  </div>
+</body>
+
+</html>

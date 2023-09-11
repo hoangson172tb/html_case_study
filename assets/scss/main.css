@@ -176,7 +176,7 @@
   color: #ffffff;
   text-transform: uppercase;
   font-family: "Bangers", cursive;
-  width: 70%;
+  width: 40% !important;
 }
 .carousel-panel .carousel-text h3 {
   font-size: 30px;
